@@ -7,7 +7,7 @@ This project consisted of a CPR Manikin with an Arduino controller, a mobile pho
 
 I was responsible for writing the mobile phone application and the backend server.
 
-Backend:
+##Backend:
 
 Spring boot server written in Java to handle the API requests from the front-end application and works with MongoDB.
 
@@ -16,7 +16,7 @@ Written in a layered design (Boundary <-> Controller <-> Service <-> Data access
 Has a JUnit test suite as well.
 
 
-Frontend:
+##Frontend:
 
 Mobile device application, written in React-native with Redux and React-native ble plx library for communication with the arduino controller.
 
